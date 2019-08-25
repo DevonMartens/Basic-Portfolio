@@ -41,8 +41,7 @@ h2 {
 body {
 	color: #777777;
 	font-size: 18px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0
     background-image: url(yellowstone.jpg);
     position: relative;
 }
@@ -81,12 +80,14 @@ img {
 }
 
 #contact {
-	float: right;
+  float: right;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #777777;
 	background-color: #ffffff;
-	align-self: left;
-	padding: 25px 400px 10px 30px;
+  align-self: left;
+  margin-right: 300px;
+  padding: 25px 30px 10px 30px;
+ float: top;
 }
 #userName {
 	font-size: 20pt;
